@@ -1,0 +1,252 @@
+
+/* GLOBAL CSS */
+
+body {
+  text-align: center;
+}
+section {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+p {
+  margin: 3% auto;
+}
+.heading {
+  font-family: 'Amatic SC', cursive;
+  font-size: 5vw;
+  font-weight: bolder;
+  letter-spacing: 0.4vw;
+  padding: 2%;
+  margin-bottom: 1%;
+}
+.row {
+  margin: 0;
+  padding: 3% 12%;
+}
+@media (max-width: 992px) {
+  .row {
+    padding: 3% 5%;
+  }
+}
+/* NAVIGATION BAR */
+
+.container-fluid {
+  background-color: #006a71;
+  padding: 2% 12% 1%;
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}
+.navbar {
+  border-style: dashed;
+  border-color: #ffffdd;
+  border-width: 1px 0;
+}
+.nav-link {
+  color: #cbeaed;
+  font-family: 'Itim', cursive;
+  font-size: 1.2vw;
+  padding: 2% 3%;
+}
+.nav-link:hover {
+  color: #ffffdd;
+}
+.active {
+  color: gold;
+}
+@media (max-width: 992px) {
+  .nav-link {
+    font-size: 3vw;
+  }
+}
+/* TITLE SECTION */
+
+#title {
+  background-color: #006a71;
+  color: #ffffdd;
+  padding-top: 0;
+}
+.about-me {
+  font-family: 'Lateef', cursive;
+  font-size: 2.6vw;
+  line-height: 1.2;
+  text-align: left;
+  word-spacing: 0.3vw;
+}
+.self-image {
+  margin: 15% 5% 15% 25%;
+  width: 50%;
+}
+@media (max-width: 992px){
+  .self-image {
+    margin: 10%;
+    width: 40%;
+  }
+}
+
+/* EDUCATION SECTION */
+
+#education {
+  background-color: #fff;
+}
+#education .row {
+  padding: 3% 20%;
+}
+
+    /* EDUCATION-ROWS-COLUMN-1 */
+
+    .degree-center {
+      color: #197163;
+      font-family: 'Patrick Hand SC', cursive;
+      font-size: 1.8vw;
+      font-weight: 900;
+    }
+    .degree-center-city, .degree-duration {
+      font-family: 'Pangolin', cursive;
+    }
+    .degree-center-city {
+      color: #596e79;
+      font-size: 1.3vw;
+      font-weight: 200;
+    }
+    .degree-duration {
+      color: grey;
+      font-size: 1vw;
+      font-weight: 100;
+    }
+
+    /* EDUCATION-ROWS-COLUMN-2 */
+
+    .description {
+      font-family: 'Lateef', cursive;
+      line-height: 1.1;
+      text-align: left;
+    }
+    @media (max-width: 992px) {
+      .description {
+        text-align: center;
+      }
+    }
+    .degree-branch-cgpa, .degree-name, .degree-explanation {
+      margin: 1% auto;
+    }
+    .degree-name {
+      color: #158467;
+      font-size: 1.9vw;
+      font-weight:500;
+    }
+    .degree-branch-cgpa {
+      color: #596e79;
+      font-size: 1.7vw;
+    }
+    .degree-explanation {
+      color: grey;
+      font-size: 1.6vw;
+    }
+    .description
+    @media (max-width: 992px) {
+      .description {
+        text-align: center;
+      }
+    }
+
+/* COURSES SECTION */
+
+#courses {
+  background-color: #006a71;
+}
+.course-headers {
+  color: #68b0ab;
+  font-family: 'Rancho', cursive;
+  font-size: 2.1vw;
+  letter-spacing: .2vw;
+}
+.course-header-col-1 {
+  padding: 10% 3%;
+}
+.course-header-col-2 {
+  padding: 6.7% 3%;
+}
+.course-data {
+  color: #cbeaed;
+  font-family: 'Handlee', cursive;
+  font-size: 1.8vw;
+  padding: 2%;
+  text-align: left;
+}
+.set-padding {
+  padding: 1.2%;
+}
+
+/* SKILLS SECTION */
+
+#skills {
+  background-color: #fff;
+}
+#skills .row {
+  padding: 3% 20%;
+}
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  padding-left: 10%;
+}
+.skill-title {
+  display: inline-block;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.6vw;
+  font-weight: 200;
+  width: 50%;
+}
+.skill-score {
+  color: #006a71;
+  font-size: 1.5vw;
+  margin-left: 10%;
+}
+
+/* HOBBIES SECTION */
+
+#hobbies {
+  background-color: #006a71;
+}
+#hobbies .row {
+  padding: 3% 20%;
+}
+.sub-heading {
+  color: #84a9ac;
+  font-family: 'Rancho', cursive;
+  font-size: 2.5vw;
+  padding-top: 2%;
+  text-align: left;
+}
+.hobby-para {
+  color: #ffffdd;
+  font-family: 'Handlee', cursive;
+  font-size: 2vw;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: lighter;
+}
+.gif {
+  float: right;
+  width: 15%;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  background-color: #fff;
+}
+.contact-link .fa {
+  padding: 3%;
+}
+.contact-link {
+  color: #56556e;
+  font-size: 2.5vw;
+  font-weight: 400;
+}
+.contact-link:hover {
+  color: #767c77;
+}
